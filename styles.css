@@ -3,3 +3,79 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background: #0f8b8d;
+    color: #dad2d8;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 200px 0;
+}
+
+.game-container {
+    border: 1px solid peachpuff;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+button.play-game {
+    align-self: center;
+    border: none;
+    color: #dad2d8;
+    background: #143642;
+    font-size: 16px;
+    padding: 16px 24px;
+    width: max-content;
+    border-radius: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button.play-game:hover {
+    align-self: center;
+    border: none;
+    color: #143642;
+    background: #dad2d8;
+    font-size: 16px;
+    padding: 16px 24px;
+    width: max-content;
+    border-radius: 25px;
+}
+
+.gameplay {
+    display: flex;
+    gap: 24px;
+    border: 2px solid yellow;
+    margin-top: 24px;
+}
+
+.rps-icons > img {
+    padding: 16px 0;
+    width: 100px;
+}
+
+.player-selection {
+    border: 2px solid brown;
+    text-align: center;
+    flex: 1;
+}
+
+.computer-selection {
+    border: 2px solid brown;
+    text-align: center;
+    flex: 1;
+}
