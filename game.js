@@ -9,6 +9,7 @@ function getComputerChoice() {
 }
 
 // Player's play
+/*
 function getPlayerChoice() {
   let validatedInput = false;
 
@@ -25,6 +26,7 @@ function getPlayerChoice() {
     }
   }
 }
+*/
 
 // Check result
 function checkResult(playerSelection, computerSelection) {
@@ -87,3 +89,16 @@ function game() {
   }
 }
 game();
+
+/*
+function startGame() {
+  let startGameEl = document.getElementsByClassName("gameplay");
+  if (startGameEl.style.display === "none") {
+    startGameEl.style.display = "block";
+  }
+  else {
+    startGameEl.style.display = "none";
+  }
+  // let imgs = document.querySelectorAll('img');
+}
+*/
